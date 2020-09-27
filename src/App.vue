@@ -2,7 +2,6 @@
   <div id="app">
     <navbar />
     <div class="row p-3 m-3">
-      <div class="teste">
         <div class="card p-3" style="width: 18rem">
           <div class="card-body">
             <h5 class="card-title">Novo</h5>
@@ -30,9 +29,7 @@
             </form>
           </div>
         </div>
-      </div>
       <card
-        ref="recadoCard"
         v-for="item in recados"
         :key="item.id"
         :id="item.id"
